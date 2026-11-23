@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Onew4n Photography</title>
+  <meta name="description" content="Contact Onew4n Photography to book a portrait, wedding or commercial session, or ask about availability and pricing.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header solid">
+    <nav class="container nav" aria-label="Main">
+      <a href="index.html" class="logo">Onew<span>4</span>n</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <ul class="nav-links">
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#portfolio">Portfolio</a></li>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Get in Touch</span>
+      <h1>Let’s talk about<br>your story.</h1>
+      <p>Whether you’re planning a wedding, a portrait session or a brand shoot, we’d love to hear from you. We reply to every enquiry within 24–48 hours.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="container contact-grid">
+      <aside>
+        <div class="info-block">
+          <h3>Email</h3>
+          <a href="mailto:hello@onew4n.com">hello@onew4n.com</a>
+        </div>
+        <div class="info-block">
+          <h3>Phone</h3>
+          <a href="tel:+14155550186">+1 (415) 555-0186</a>
+        </div>
+        <div class="info-block">
+          <h3>Studio</h3>
+          <p>By appointment only<br>Available for travel worldwide</p>
+        </div>
+        <div class="info-block">
+          <h3>Hours</h3>
+          <p class="muted">Mon – Fri: 10:00 – 18:00<br>Sat: 10:00 – 14:00<br>Sun: Closed (shoots by arrangement)</p>
+        </div>
+      </aside>
+
+      <div>
+        <form id="contact-form" class="form" novalidate>
+          <div class="field">
+            <label for="name">Full Name *</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+            <p class="error">Please enter your name.</p>
+          </div>
+          <div class="field">
+            <label for="email">Email *</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+            <p class="error">Please enter a valid email address.</p>
+          </div>
+          <div class="field">
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel">
+          </div>
+          <div class="field">
+            <label for="type">Session Type</label>
+            <select id="type" name="type">
+              <option>Portrait</option>
+              <option>Wedding / Event</option>
+              <option>Commercial / Editorial</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="date">Preferred Date</label>
+            <input id="date" name="date" type="date">
+          </div>
+          <div class="field">
+            <label for="location">Location</label>
+            <input id="location" name="location" type="text" placeholder="City or venue">
+          </div>
+          <div class="field full">
+            <label for="message">Tell us about your project *</label>
+            <textarea id="message" name="message" required placeholder="Your vision, number of people, budget range, anything that helps…"></textarea>
+            <p class="error">Please add a short message.</p>
+          </div>
+          <div class="field full">
+            <label class="consent">
+              <input type="checkbox" name="consent" required>
+              <span>I agree that Onew4n Photography may use my details to respond to this enquiry, as described in the <a href="privacy.html">Privacy Policy</a>.</span>
+            </label>
+            <p class="error">Please confirm to continue.</p>
+          </div>
+          <div class="full">
+            <button type="submit" class="btn btn-primary">Send Enquiry</button>
+          </div>
+          <div class="full form-success" role="status">
+            <strong>Thank you!</strong> Your message has been received. We’ll be in touch within 24–48 hours.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="services">
+    <div class="container">
+      <span class="eyebrow">Before You Ask</span>
+      <h2 style="margin-bottom:24px">Frequently asked questions</h2>
+      <div class="faq">
+        <details>
+          <summary>How far in advance should I book?</summary>
+          <p>For weddings, 6–12 months ahead is ideal. Portrait and commercial sessions can usually be scheduled within 2–4 weeks.</p>
+        </details>
+        <details>
+          <summary>Do you travel for shoots?</summary>
+          <p>Yes. Local travel is included in most packages, and we happily travel nationally and internationally — travel costs are quoted upfront.</p>
+        </details>
+        <details>
+          <summary>How long until I receive my photos?</summary>
+          <p>Portrait galleries are delivered within 2 weeks; weddings and larger projects within 4–6 weeks. A sneak peek is shared within 72 hours.</p>
+        </details>
+        <details>
+          <summary>Is a deposit required?</summary>
+          <p>A 30% retainer secures your date, with the balance due before the session or wedding day.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="disclaimer"><strong>Disclaimer:</strong> All photographs on this website are the property of Onew4n Photography and are protected by copyright. They may not be copied, downloaded, reproduced or used in any form without prior written permission. Prices, packages and availability shown are indicative and subject to change; a final quote is confirmed after consultation. Testimonials reflect individual client experiences and do not guarantee specific results.</p>
+      <div class="footer-bottom">
+        <span>&copy; <span data-year></span> Onew4n Photography. All rights reserved.</span>
+        <span><a href="index.html">Home</a> · <a href="privacy.html">Privacy</a> · <a href="contact.html">Contact</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
